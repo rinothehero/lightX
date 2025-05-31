@@ -1,0 +1,9 @@
+*.txt
+*.pt
+*.pth
+*.json
+*.jsonl
+*.csv
+__pycache__/
+a/json/
+a/models/
