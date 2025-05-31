@@ -7,3 +7,4 @@
 __pycache__/
 a/json/
 a/models/
+.gitignore
