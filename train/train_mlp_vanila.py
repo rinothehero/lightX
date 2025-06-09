@@ -159,7 +159,7 @@ def main():
 
     # save final model
     state = model.module.state_dict() if hasattr(model, 'module') else model.state_dict()
-    torch.save(state, "train_mlp_ce_only_agnews-dohyeok.pt")
+    torch.save(state, "models/train_mlp_ce_only_agnews.pt")
 
 
 if __name__ == '__main__':

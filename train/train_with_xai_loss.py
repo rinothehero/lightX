@@ -318,7 +318,7 @@ def main():
     evaluate(model, val_loader, device)
 
     state = model.module.state_dict() if hasattr(model, 'module') else model.state_dict()
-    torch.save(state, "models/mlp_xai_agnews_manualIG_0.8.pt")
+    torch.save(state, "models/mlp_xai_08.pt")
 
 
 if __name__ == '__main__':
